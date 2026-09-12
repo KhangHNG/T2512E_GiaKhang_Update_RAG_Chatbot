@@ -5,7 +5,7 @@ dotenv.config();
 
 const apiKey = process.env.GEMINI_API_KEY;
 if (!apiKey) {
-    console.error('❌ LỖI RẤT LỚN: Chưa cấu hình GEMINI_API_KEY trong file .env!');
+    console.error('Chưa cấu hình GEMINI_API_KEY');
 }
 
 export const envConfig = {
